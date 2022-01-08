@@ -5,7 +5,8 @@
 unsetopt nomatch
 
 # Custom $PATH
-export PASTH=$HOME/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]
