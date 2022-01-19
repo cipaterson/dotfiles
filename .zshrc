@@ -7,6 +7,8 @@ unsetopt nomatch
 # Custom $PATH
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=$HOME/bin:$PATH
+# This is where pip puts executibles, so needed for ansible, etc:
+export PATH=$HOME/Library/Python/3.8/bin:$PATH
 
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]
